@@ -1,0 +1,11 @@
+HW6:
+total 300
+-rw-r--r--. 1 myid    969 Nov  7 23:04 BagLearner.py
+-rw-r--r--. 1 myid   4271 Nov  7 23:04 DTLearner.py
+-rw-r--r--. 1 myid    820 Nov  7 23:04 InsaneLearner.py
+-rw-r--r--. 1 myid   3083 Nov  7 23:04 LinRegLearner.py
+-rw-r--r--. 1 myid      0 Nov  7 23:05 rec15019
+-rw-r--r--. 1 myid 276906 Nov  7 23:04 report.docx
+-rw-r--r--. 1 myid   3355 Nov  7 23:04 RTLearner.py
+-rw-r--r--. 1 myid   2721 Nov  7 23:04 testlearner.py
+/home/myid/ncs34188/csci-x170/HW6:/home/myid/csci-x170

@@ -1,0 +1,60 @@
+README
+Noah Sivinski, UGA ID: 811729354
+Cedric Johnson II, UGA ID: 811480235
+
+CSCI 2720 Project 5
+Sorting Algorithms
+
+I. Files:
+-------------------
+Sort.h			       Header file containing specifications for the
+			       Insertion, Selection, Merge, Heap, and Quick
+			       sort algorithms.
+
+Sort.cpp		       Implementations for the Insertion, Selection,
+			       Merge, Heap, and Quick sort algorithms.
+
+SortDr.cpp	       	       Driver program testing the implemented sorting algorithms.
+
+ordered.txt		       Input file containing integers put in ascending order
+			       from 0 to 9999.
+
+random.txt		       Input file containing the 10000 integers arranged randomly.
+
+reverse.txt		       Input file containing integers put in reverse order 
+			       from 9999 to 0.
+
+report.txt		       Text file containing an analysis report of the program,
+			       the results, and the sorting algorithms.
+
+README			       Includes information regarding program.
+
+makefile		       Compiles and links files while encoding dependencies
+			       and commands needed to generate files.
+
+II. How to Run main:
+----------------------------
+The executable "main" results from the compilation of the
+Sort.cpp file to Sort.o and SortDr.cpp to SortDr.o.
+Using a makefile, this program can be compiled and linked with:
+
+      		       	  make
+	                   OR
+		      make compile
+
+To run the built program "main", use the command:
+
+       	   	 	./main file.txt
+			OR
+       	                make run
+
+
+To remove any old executable and object files before using the
+make command, use:
+     		       make clean
+
+III. Team Member Contributions
+-------------------------------------
+N. Sivinski: Implemented Insertionsort, Selectionsort, and MergeSort algorithms, created Sort.cpp, Sort.h, SortDr.cpp, makefile, and assisted with report.txt file.
+
+C. Johnson II: Implemented Quicksort & Heapsort algorithms, created README.txt & report.txt files, and assisted with general modifications to program.

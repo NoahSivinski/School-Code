@@ -1,0 +1,26 @@
+sivinski_johnson_project5/:
+total 364
+-rw-r--r--. 1 myid   3367 Apr 30 14:29 Ced.cpp
+-rw-r--r--. 1 myid   2626 Apr 30 14:31 CeReport.txt
+-rwxr-xr-x. 1 myid  19112 Apr 30 15:05 main
+-rw-r--r--. 1 myid    301 Apr 29 21:05 makefile
+-rw-r--r--. 1 myid    321 Apr 26 19:30 makefile~
+-rw-r--r--. 1 myid  48890 Jan  6 01:24 ordered.txt
+-rw-r--r--. 1 myid 115236 Apr 19 12:21 Project 5.pdf
+-rw-r--r--. 1 myid  48890 Jan  6 01:24 random.txt
+-rw-r--r--. 1 myid   1986 Apr 30 15:22 README.txt
+-rw-r--r--. 1 myid   1961 Apr 30 14:53 README.txt~
+-rw-r--r--. 1 myid      0 Apr 30 15:25 rec22374
+-rw-r--rw-. 1 myid   2782 Apr 30 15:16 report.txt
+-rw-r--rw-. 1 myid   2599 Apr 30 15:03 report.txt~
+-rw-r--rw-. 1 myid   2595 Apr 30 14:49 Report.txt~
+-rw-r--r--. 1 myid  48890 Jan  6 01:24 reverse.txt
+-rw-r--r--. 1 myid   5248 Apr 30 14:58 Sort.cpp
+-rw-r--r--. 1 myid   5230 Apr 29 21:00 Sort.cpp~
+-rw-r--r--. 1 myid   1410 Apr 28 19:45 SortDr.cpp
+-rw-r--r--. 1 myid   1401 Apr 28 14:42 SortDr.cpp~
+-rw-r--r--. 1 myid   8080 Apr 30 15:05 SortDr.o
+-rw-r--r--. 1 myid    513 Apr 29 21:19 Sort.h
+-rw-r--r--. 1 myid    512 Apr 29 21:00 Sort.h~
+-rw-r--r--. 1 myid   6232 Apr 30 15:05 Sort.o
+/home/myid/ncs34188/cs2720/sivinski_johnson_project5/:/home/myid/csci-2720c

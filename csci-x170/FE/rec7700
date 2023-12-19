@@ -1,0 +1,20 @@
+FE:
+total 23100
+-rw-r--r--. 1 myid      714 Dec 14 18:24 Checklist.txt
+-rw-r--r--. 1 myid  3369471 Dec 14 18:24 Matching Engine Long.pptx
+-rw-r--r--. 1 myid  2126642 Dec 14 18:24 Matching Engine.pptx
+-rw-r--r--. 1 myid     3542 Dec 14 18:24 MatchingEngine.py
+-rw-r--r--. 1 myid     8335 Dec 14 18:24 OrderBookGUI.py
+drwxr-xr-x. 2 myid       52 Dec 14 18:24 __pycache__
+-rw-r--r--. 1 myid      266 Dec 14 18:24 Readme.txt
+-rw-r--r--. 1 myid      657 Dec 14 18:24 rec23936
+-rw-r--r--. 1 myid      777 Dec 15 23:52 rec3886
+-rw-r--r--. 1 myid        0 Dec 16 00:39 rec7700
+-rw-r--r--. 1 myid  2507496 Dec 16 00:38 Report.docx
+-rw-r--r--. 1 myid     1764 Dec 14 18:24 Test.py
+-rw-r--r--. 1 myid 15603154 Dec 15 23:51 video1968309948.mp4
+
+FE/__pycache__:
+total 4
+-rw-r--r--. 1 myid 2763 Dec 14 18:24 MatchingEngine.cpython-310.pyc
+/home/myid/ncs34188/csci-x170/FE:/home/myid/csci-x170

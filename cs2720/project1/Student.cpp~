@@ -1,0 +1,47 @@
+#include "Student.h"
+#include <string>
+
+using namespace std;
+
+//int studentID;
+//string studentName;
+
+Student::Student() {
+  studentID = 0;
+  studentName = "";
+} // Student
+
+Student::Student(int id, string name) {
+  studentID = id;
+  studentName = name;
+} // Student
+
+void setStudentID(int id) {
+  studentID = id;
+} // setStudentID
+
+void setStudentName(string name) {
+  studentName = name;
+} //setStudentName
+
+int getStudentID() {
+  return studentID;
+} // getStudentID
+
+string getStudentName() {
+  return studentName;
+} // getStudentName
+
+bool operator == (Student student1, Student student2) {
+  if (student1.getStudentID() == student2.getStudentID()) {
+    return true;
+  } else {
+    return false;
+  } // if-else
+} // operator==
+
+std::ostream& operator<<(std::ostream & output, Student & s) {
+  output << s.getStudentID() << "\t" << s.getStudentName();
+  return output;
+} // operator<<
+ 

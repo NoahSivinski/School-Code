@@ -1,0 +1,14 @@
+project5: Sort.o SortDr.o
+	g++ -std=c++14 -Wall -pedantic-errors -O0 -g -o project5 Sort.o SortDr.o
+
+SortDr.o: SortDr.cpp Sort.cpp
+	g++ -std=c++14 -Wall -pedantic-errors -O0 -c SortDr.cpp
+
+Sort.o: Sort.h Sort.cpp
+	g++ -std=c++14 -Wall -pedantic-errors -O0 -c Sort.cpp
+
+run: project5
+	./project5
+
+clean:
+	rm  *.o project5

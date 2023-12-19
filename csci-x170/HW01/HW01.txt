@@ -1,0 +1,5 @@
+1. I have programmed in python before, but I am self taught.
+2. Solidity
+3. I have worked with both excel and google sheets
+4. Rust
+5. Nvidia

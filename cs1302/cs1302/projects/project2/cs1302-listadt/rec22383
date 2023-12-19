@@ -1,0 +1,100 @@
+cs1302-listadt:
+total 116
+drwxr-xr-x 3 ugrad  4096 Feb 21 13:37 bin
+-rwxr--r-- 1 ugrad   343 Feb 21 05:27 cs1302-compile.sh
+-rwxr--r-- 1 ugrad   346 Feb 21 04:26 cs1302-driver.sh
+drwxr-xr-x 3 ugrad  4096 Feb 21 05:19 doc
+-rw-r--r-- 1 ugrad    11 Feb 21 13:38 EXTRA.md
+-rw-r--r-- 1 ugrad  2016 Feb  2 16:55 listadt.jar
+-rw-r--r-- 1 ugrad 21242 Feb  2 16:55 listadt_uml1_good.png
+-rw-r--r-- 1 ugrad 29758 Feb  2 16:55 listadt_uml2_good.png
+-rw-r--r-- 1 ugrad 32640 Feb  2 16:55 README.md
+-rw-r--r-- 1 ugrad     0 Feb 21 13:40 rec22383
+drwxr-xr-x 3 ugrad  4096 Feb  3 10:09 src
+
+cs1302-listadt/bin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Feb 21 13:37 cs1302
+
+cs1302-listadt/bin/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Feb 21 13:37 list
+
+cs1302-listadt/bin/cs1302/list:
+total 16
+-rw-r--r-- 1 ugrad 2942 Feb 21 13:37 AbstractStringList.class
+-rw-r--r-- 1 ugrad 2829 Feb 21 13:37 ArrayStringList.class
+-rw-r--r-- 1 ugrad  813 Feb 21 13:37 Iterate.class
+-rw-r--r-- 1 ugrad 3253 Feb 21 13:37 LinkedStringList.class
+
+cs1302-listadt/doc:
+total 92
+-rw-r--r-- 1 ugrad  1010 Feb 21 13:38 allclasses-frame.html
+-rw-r--r-- 1 ugrad   930 Feb 21 13:38 allclasses-noframe.html
+-rw-r--r-- 1 ugrad  3553 Feb 21 13:38 constant-values.html
+drwxr-xr-x 5 ugrad  4096 Feb 21 05:35 cs1302
+-rw-r--r-- 1 ugrad  3503 Feb 21 13:38 deprecated-list.html
+-rw-r--r-- 1 ugrad  7938 Feb 21 13:38 help-doc.html
+-rw-r--r-- 1 ugrad 20197 Feb 21 13:38 index-all.html
+-rw-r--r-- 1 ugrad  2782 Feb 21 13:38 index.html
+-rw-r--r-- 1 ugrad   859 Feb 21 13:14 overview-frame.html
+-rw-r--r-- 1 ugrad  4032 Feb 21 13:14 overview-summary.html
+-rw-r--r-- 1 ugrad  4929 Feb 21 13:38 overview-tree.html
+-rw-r--r-- 1 ugrad    12 Feb 21 13:38 package-list
+-rw-r--r-- 1 ugrad   827 Feb 21 13:38 script.js
+-rw-r--r-- 1 ugrad 12842 Feb 18 09:51 stylesheet.css
+
+cs1302-listadt/doc/cs1302:
+total 12
+drwxr-xr-x 2 ugrad 4096 Feb 21 05:19 driv
+drwxr-xr-x 2 ugrad 4096 Feb 21 05:19 list
+drwxr-xr-x 2 ugrad 4096 Feb 21 05:35 listadt
+
+cs1302-listadt/doc/cs1302/driv:
+total 132
+-rw-r--r-- 1 ugrad  8722 Feb 21 05:22 Driver2.html
+-rw-r--r-- 1 ugrad 75620 Feb 21 13:14 Driver3.html
+-rw-r--r-- 1 ugrad  8542 Feb 21 05:23 Driver.html
+-rw-r--r-- 1 ugrad  8617 Feb 21 05:23 FinalDriver.html
+-rw-r--r-- 1 ugrad   756 Feb 21 13:14 package-frame.html
+-rw-r--r-- 1 ugrad  4643 Feb 21 13:14 package-summary.html
+-rw-r--r-- 1 ugrad  4375 Feb 21 13:14 package-tree.html
+
+cs1302-listadt/doc/cs1302/list:
+total 132
+-rw-r--r-- 1 ugrad 32572 Feb 21 13:38 AbstractStringList.html
+-rw-r--r-- 1 ugrad 24808 Feb 21 13:38 ArrayStringList.html
+-rw-r--r-- 1 ugrad 14548 Feb 21 13:38 Iterate.html
+-rw-r--r-- 1 ugrad 24521 Feb 21 13:38 LinkedStringList.html
+-rw-r--r-- 1 ugrad  8542 Feb 21 05:23 ListDriver.html
+-rw-r--r-- 1 ugrad  1091 Feb 21 13:38 package-frame.html
+-rw-r--r-- 1 ugrad  5066 Feb 21 13:38 package-summary.html
+-rw-r--r-- 1 ugrad  4929 Feb 21 13:38 package-tree.html
+
+cs1302-listadt/doc/cs1302/listadt:
+total 100
+-rw-r--r-- 1 ugrad   994 Feb 21 05:35 package-frame.html
+-rw-r--r-- 1 ugrad  5306 Feb 21 05:35 package-summary.html
+-rw-r--r-- 1 ugrad  4887 Feb 21 05:35 package-tree.html
+-rw-r--r-- 1 ugrad 60231 Feb 21 05:35 StringList.html
+-rw-r--r-- 1 ugrad 18456 Feb 21 05:35 StringList.Node.html
+
+cs1302-listadt/src:
+total 4
+drwxr-xr-x 4 ugrad 4096 Feb 21 00:52 cs1302
+
+cs1302-listadt/src/cs1302:
+total 8
+drwxr-xr-x 2 ugrad 4096 Feb 21 13:37 driv
+drwxr-xr-x 2 ugrad 4096 Feb 21 13:34 list
+
+cs1302-listadt/src/cs1302/driv:
+total 0
+
+cs1302-listadt/src/cs1302/list:
+total 28
+-rw-r--r-- 1 ugrad 5209 Feb 21 13:14 AbstractStringList.java
+-rw-r--r-- 1 ugrad 5572 Feb 21 13:33 ArrayStringList.java
+-rw-r--r-- 1 ugrad  762 Feb 21 13:13 Iterate.java
+-rw-r--r-- 1 ugrad 6139 Feb 21 13:34 LinkedStringList.java
+/home/ugrads/sivinski/cs1302/projects/project2/cs1302-listadt:/home/work/cs1302a

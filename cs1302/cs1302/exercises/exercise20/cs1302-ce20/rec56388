@@ -1,0 +1,43 @@
+cs1302-ce20:
+total 60
+drwxr-xr-x 3 ugrad  4096 Apr 12 17:55 bin
+-rw-r--r-- 1 ugrad  9867 Apr 12 17:37 README.md
+-rw-r--r-- 1 ugrad     0 Apr 12 20:33 rec56388
+drwxr-xr-x 2 ugrad  4096 Apr 12 17:37 resources
+-rw-r--r-- 1 ugrad 29197 Apr 12 17:37 ScreenShotCP1.png
+drwxr-xr-x 3 ugrad  4096 Apr 12 17:51 src
+-rw-r--r-- 1 ugrad    79 Apr 12 20:26 SUBMISSION.md
+
+cs1302-ce20/bin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 12 17:55 cs1302
+
+cs1302-ce20/bin/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 12 17:55 ce20
+
+cs1302-ce20/bin/cs1302/ce20:
+total 12
+-rw-r--r-- 1 ugrad 4798 Apr 12 20:31 ImageApp.class
+-rw-r--r-- 1 ugrad  803 Apr 12 20:31 ImageDriver.class
+
+cs1302-ce20/resources:
+total 16
+-rw-r--r-- 1 ugrad 1065 Apr 12 17:37 actual-size-50.png
+-rw-r--r-- 1 ugrad  622 Apr 12 17:37 default.png
+-rw-r--r-- 1 ugrad 1009 Apr 12 17:37 zoom-in-50.png
+-rw-r--r-- 1 ugrad  930 Apr 12 17:37 zoom-out-50.png
+
+cs1302-ce20/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 12 18:42 cs1302
+
+cs1302-ce20/src/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 12 20:32 ce20
+
+cs1302-ce20/src/cs1302/ce20:
+total 12
+-rw-r--r-- 1 ugrad 4442 Apr 12 20:32 ImageApp.java
+-rw-r--r-- 1 ugrad  627 Apr 12 17:54 ImageDriver.java
+/home/ugrads/sivinski/cs1302/exercises/exercise20/cs1302-ce20:/home/work/cs1302a

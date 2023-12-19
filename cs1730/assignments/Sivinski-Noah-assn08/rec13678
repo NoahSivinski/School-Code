@@ -1,0 +1,23 @@
+Sivinski-Noah-assn08:
+total 180
+-rwxr-xr-x. 1 myid 23928 Nov 22 17:54 a.out
+-rw-r--r--. 1 myid   310 Nov 16 23:27 assn08test.tar.gz
+-rwxr-xr-x. 1 myid 12336 Nov 22 18:20 firstline
+-rw-r--r--. 1 myid   359 Nov 22 18:20 firstline.cpp
+-rw-r--r--. 1 myid   298 Nov 22 14:53 firstline.cpp~
+-rw-r--r--. 1 myid 27832 Nov 22 18:00 firstline.o
+-rwxr-xr-x. 1 myid 25600 Nov 22 18:20 longestline
+-rw-r--r--. 1 myid   589 Nov 22 18:19 longestline.cpp
+-rw-r--r--. 1 myid     0 Nov 22 17:34 longestline.cpp~
+-rw-r--r--. 1 myid 30392 Nov 22 18:01 longestline.o
+-rw-r--r--. 1 myid    70 Nov 22 17:57 makefile
+-rw-r--r--. 1 myid    69 Nov 22 17:49 makefile~
+-rw-r--r--. 1 myid     0 Nov 22 18:24 rec13678
+-rw-r--r--. 1 myid    11 Sep 11  2018 testfive
+-rw-r--r--. 1 myid    13 Sep 11  2018 testfour
+-rw-r--r--. 1 myid    25 Sep 11  2018 testone
+-rw-r--r--. 1 myid    16 Sep 11  2018 testseven
+-rw-r--r--. 1 myid     4 Sep 11  2018 testsix
+-rw-r--r--. 1 myid    12 Sep 11  2018 testthree
+-rw-r--r--. 1 myid    24 Sep 11  2018 testtwo
+/home/myid/ncs34188/cs1730/assignments/Sivinski-Noah-assn08:/home/myid/csci-1730

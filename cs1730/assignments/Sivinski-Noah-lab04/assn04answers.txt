@@ -1,0 +1,21 @@
+1. var is an int
+2. var is a reference to an int
+3. var is a pointer to an int
+4. c is a char
+5. message is a pointer to a char
+6. message is an array of chars
+7. message is an array (size 30) of chars
+8. foo is a function expecting (char) and returning void
+9. minus is a pointer to a function expecting (int, int) and returning an int
+10. op is a function expecting (int, int, void (*func)(int, int) and returning void
+
+1. double * var;
+2. string var;
+3. int values[50];
+4. float (**var);
+5. void foo();
+6. void foo(char, int);
+7. void (*funcptr)();
+8. int (*funcptr)(int&);
+9. void (*funcptr)(int, char *[]);
+10. int foo(void *(int))

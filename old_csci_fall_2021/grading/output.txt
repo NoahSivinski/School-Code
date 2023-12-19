@@ -1,0 +1,339 @@
+======================================
+Grading Summary for Lab 13
+======================================
+
+---------------------------------
+Adam Ruehle
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    
+    Test1:
+    Your method's answer:
+    3 2 1 1 
+    2 5 6 2 
+    1 2 9 8 
+    Correct answer:
+    3 2 1 1
+    2 5 6 2
+    1 2 9 8
+    Test1 failed:	0 / 10 points
+    
+    Test2:
+    Your method's answer:
+    4 8 4 5 1 
+    5 4 5 2 8 
+    4 8 3 5 1 
+    5 6 6 4 5 
+    1 2 4 9 2 
+    9 7 4 3 1 
+    Correct answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 3 1
+    Test2 failed:	0 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 passed:	20 / 20 points
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Brandon Ho
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Brooks Ruehle
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    
+    Test1:
+    Your method's answer:
+    3 2 1 1 
+    2 5 6 2 
+    1 2 9 8 
+    Correct answer:
+    3 2 1 1
+    2 5 6 2
+    1 2 9 8
+    Test1 failed:	0 / 10 points
+    
+    Test2:
+    Your method's answer:
+    4 8 4 5 1 
+    5 4 5 2 8 
+    4 8 3 5 1 
+    5 6 6 4 5 
+    1 2 4 9 2 
+    9 7 4 3 1 
+    Correct answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 3 1
+    Test2 failed:	0 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 passed:	20 / 20 points
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Chase Pitser
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Claire Fortenberry
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Daniel Han
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Davis Klein
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-80)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    
+    Test3:
+    Your method's answer:
+    0 0 0 0
+    2 5 0 0
+    1 2 0 0
+    Correct answer:
+    0 0 0 0
+    0 5 6 0
+    0 2 9 0
+    Test3 failed:	0 / 20 points
+    
+    Test4:
+    Your method's answer:
+    4 8 4 5 0
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Correct answer:
+    0 8 4 5 1
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Test4 failed:	0 / 20 points
+    
+    Test5:
+    Your method's answer:
+    0 0 0 0
+    2 5 0 0
+    1 2 0 0
+    Correct answer:
+    0 2 1 0
+    0 5 6 0
+    0 2 0 0
+    Test5 failed:	0 / 20 points
+    
+    Test6:
+    Your method's answer:
+    4 8 4 5 0
+    5 4 5 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 0
+    0 0 0 0 0
+    Correct answer:
+    0 0 0 0 1
+    5 0 0 0 8
+    4 0 0 0 1
+    5 6 0 0 5
+    1 2 0 0 0
+    9 7 0 0 0
+    Test6 failed:	0 / 20 points
+    Total:		20 / 100 points
+
+Score: 20/100
+---------------------------------
+---------------------------------
+Evan McKinney
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Jacob Tate
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Lincoln Ledet
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Melissa Neff
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Nico Blandino
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Nnamdi Obichi
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Raegan Girdley
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Tushita Bansal
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------

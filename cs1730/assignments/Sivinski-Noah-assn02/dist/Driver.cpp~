@@ -1,0 +1,17 @@
+#include <cstdlib>
+#include <iostream>
+#include "Account.h"
+
+using namespace std;
+
+int main(){
+
+  Account account1("account1");
+  Account account2("account2");
+  account1.setBalance(50.0);
+  cout << account1.getName() << endl;
+  cout << account2.getName() << endl;
+  cout << account1.getBalance() << endl;
+  
+  return EXIT_SUCCESS;
+}

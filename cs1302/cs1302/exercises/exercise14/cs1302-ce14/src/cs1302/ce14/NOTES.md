@@ -1,0 +1,1 @@
+This is a fun exercise. The first signiture is better because it is type specified and generic. The non-generic is more error-prone because it assumes a type of object which can cause errors. I am beginning to understand how to deal with branches.

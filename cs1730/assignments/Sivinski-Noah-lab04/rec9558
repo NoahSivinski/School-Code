@@ -1,0 +1,12 @@
+Sivinski-Noah-lab04/:
+total 156
+-rw-r--r--. 1 myid    637 Oct 10 20:20 assn04answers.txt
+-rw-r--r--. 1 myid 120191 Oct 10 16:17 assn04.pdf
+-rw-r--r--. 1 myid    433 Oct 11 18:50 bitsum.cpp
+-rw-r--r--. 1 myid     37 Oct 10 16:17 bitsum.h
+-rw-r--r--. 1 myid   2376 Oct 11 18:51 bitsum.o
+-rwxr-xr-x. 1 myid   8904 Oct 11 18:52 main
+-rw-r--r--. 1 myid    184 Oct 11 18:52 main.cpp
+-rw-r--r--. 1 myid    212 Oct 10 16:17 makefile
+-rw-r--r--. 1 myid      0 Oct 11 18:59 rec9558
+/home/myid/ncs34188/cs1730/assignments/Sivinski-Noah-lab04/:/home/myid/csci-1730

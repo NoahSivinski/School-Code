@@ -1,0 +1,21 @@
+1. The keyword this serves as a pointer to every objeect's own address. It is not part of the object itself, but is passed by the compiler as an implicit argument to each of the object's non-static member functions. Member functions use the this pointer implicitly or explicitly to reference an object's data members and other member functions. A common explicit use of the this pointer is to avoid naming conflicts between a class's data members and member-function parameters. The this pointer can be used in conjunction with the arrow operator to access data members. The this pointer is also used explicitly to avoid naming collisions, implicitly or explicitly to access an object's data members, and to enable cascaded function calls.
+
+2. Const specifies that an object/member function is not modifiable and that any attempt to modify the object should result in a compilation error, rather than execution-time errors. Const member functions do not modify the objects on which they are called. The "constness" if a const object is enforced from the time the constructor completes initialization of the object until that object's destructor is called.
+
+3. A friend function of a class is a non-member function that has the right to access the public and non-public class members. This includes standalone functions, entire classes, and other classes' member functions. Friendship is granted and not symmetric or transitive. Friend declarations can appear anywhere in  a class and are not affected by access specifiers.
+
+4. Fundamental-type static members are initialized by default to 0. After C++11, all static const data members can have in-class initializers, where it can be declared in the class definition, not at the global namespace scope. If a static data member is an object of a class that provides a default constructor, the static data member does not need to be initialized because its default constructor will be called.
+
+5. (a) Constructors are called before any other function in that program that begins execution, without a guarentee of the order of execution of constructors between files. Corresponding destructors are called when main terminates, except when a function exit or abort forces the program to terminate immediately. 
+
+(b) Constructors are called when execution reaches the point where that object is defined. The corresponding destructor is called when execution leaves the object scope, except when the program terminates with a call to function exit or function abort. Both the constructors and destructors are called each time execution enters or leaves the scope of the object.
+
+(c) Constructors are called only once when execution first reaches the point where the object is defined. Corresponding destructors are called when main terminates or program calls function exit, but they are not called if the program terminates with a call to function abort.
+
+6. The compiler provides a default copy constructor that copies each member of the original object into the corresponding member of the new object.
+
+7. each data member of the object on the right side of the assignment operator is assigned individually to the same data member and the object on the left side of the assignment operator. This can cause problems when used with a class whose data members contain pointers to dynamically allocated memory.
+
+8. C + + 11 allows constructors to call other constructors in the same class. The calling constructor, or delegating constructor, delegates its work to another constructor. This is useful when the constructors have common code that would have been previously defined in a private utility function and called by all the constructors.
+
+9. The use of an include guard in a header prevents the inclusion of header code into the same source code file from occurring more than once, which would cause multiple definition errors. 

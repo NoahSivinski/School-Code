@@ -1,0 +1,14 @@
+project1: UnsortedList.o Student.o UnsortedListDriver.o
+	g++ -std=c++14 -Wall -pedantic-errors -O0 -g -o project1 UnsortedList.o Student.o UnsortedListDriver.o
+
+UnsortedListDriver.o: UnsortedListDriver.cpp Student.h UnsortedList.cpp
+	g++ -std=c++14 -Wall -pedantic-errors -O0 -c UnsortedListDriver.cpp
+
+Student.o: Student.h Student.cpp UnsortedList.cpp
+	g++ -std=c++14 -Wall -pedantic-errors -O0 -c Student.cpp
+
+UnsortedList.o: UnsortedList.h UnsortedList.cpp
+	g++ -std=c++14 -Wall -pedantic-errors -O0 -c UnsortedList.cpp
+
+clean:
+	rm  *.o project1

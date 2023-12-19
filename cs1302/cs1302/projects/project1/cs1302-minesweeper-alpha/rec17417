@@ -1,0 +1,51 @@
+cs1302-minesweeper-alpha:
+total 2584
+drwxr-xr-x 3 ugrad    4096 Jan 23 20:00 bin
+drwxr-xr-x 2 ugrad    4096 Jan 22 11:57 examples
+-rw-r--r-- 1 ugrad 2525747 Jan 22 11:57 mine.jpg
+-rw-r--r-- 1 ugrad   60654 Jan 22 11:57 README.md
+-rw-r--r-- 1 ugrad       0 Jan 31 19:26 rec17417
+drwxr-xr-x 3 ugrad    4096 Jan 22 11:57 src
+drwxr-xr-x 2 ugrad    4096 Jan 31 19:08 tests
+-rw-r--r-- 1 ugrad    7236 Jan 22 11:57 uml_diagram.asta
+-rw-r--r-- 1 ugrad   29935 Jan 22 11:57 uml_diagram.png
+
+cs1302-minesweeper-alpha/bin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jan 23 20:00 cs1302
+
+cs1302-minesweeper-alpha/bin/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Jan 23 20:03 game
+
+cs1302-minesweeper-alpha/bin/cs1302/game:
+total 16
+-rw-r--r-- 1 ugrad  818 Jan 31 19:23 MinesweeperDriver.class
+-rw-r--r-- 1 ugrad 9896 Jan 31 19:22 MinesweeperGame.class
+
+cs1302-minesweeper-alpha/examples:
+total 16
+-rw-r--r-- 1 ugrad 730 Jan 22 11:57 11-by-11.txt
+-rw-r--r-- 1 ugrad 310 Jan 22 11:57 11-by-5.txt
+-rw-r--r-- 1 ugrad 358 Jan 22 11:57 5-by-11.txt
+-rw-r--r-- 1 ugrad 148 Jan 22 11:57 5-by-5.txt
+
+cs1302-minesweeper-alpha/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jan 22 11:57 cs1302
+
+cs1302-minesweeper-alpha/src/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Jan 31 19:22 game
+
+cs1302-minesweeper-alpha/src/cs1302/game:
+total 24
+-rw-r--r-- 1 ugrad   611 Jan 31 16:19 MinesweeperDriver.java
+-rw-r--r-- 1 ugrad 18626 Jan 31 19:22 MinesweeperGame.java
+
+cs1302-minesweeper-alpha/tests:
+total 12
+-rw-r--r-- 1 ugrad 600 Jan 31 19:08 tc01.in.txt
+-rw-r--r-- 1 ugrad 868 Jan 22 11:57 tc01.out.txt
+-rw-r--r-- 1 ugrad  24 Jan 31 19:01 tc01.seed.txt
+/home/ugrads/sivinski/cs1302/projects/project1/cs1302-minesweeper-alpha:/home/work/cs1302a

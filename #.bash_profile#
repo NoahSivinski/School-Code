@@ -1,0 +1,31 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+
+fi
+alias emacs="emacs -nw"
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+
+# cs1730 paths
+export GCC_HOME=/usr/local/gcc/10.1.0
+export GDB_HOME=/usr/local/gdb/9.2
+
+export LD_LIBRARY_PATH=$GCC_HOME/lib64:$LD_LIBRARY_PATH
+# update exec paths
+export PATH=$GCC_HOME/bin:$GDB_HOME/bin:$PATH
+
+# export PS1='\u@odin:\w\$ '
+
+#Java version 11
+
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.12.0.7-0.el7_9.x86_64/bin"
+
+export PATH=$JAVA_HOME:$PATH
+

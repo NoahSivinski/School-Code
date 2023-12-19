@@ -1,0 +1,50 @@
+CSCI 1301 - Lab 05
+Debugging Worksheet
+
+Student Name:	Yanlin Chen
+
+1. What do you observe when you run the program? 
+Unknown temperature scale.
+
+2. Where (what line numbers) have you set the breakpoints? 
+34, 37, 51, 56, 64, and 68.
+
+3. What is the value of the named constant MIN_FAHRENHEIT and the variable tempScaleStr displayed in the Variables window? 
+
+	MIN_FAHRENHEIT: -459.67
+	
+	tempScaleStr: 22
+
+4. Answer the following questions:
+
+  a) Does the first if statement display the error message correctly? 
+No
+
+  b) What is the problem?
+The if statement is incorret.
+
+  c) How would you fix the program so it terminates when the user enters a Fahrenheit temperature less than the possible minimum temperature?
+Switch the larger than sign to less than.
+
+5. Answer the following questions:
+
+  a) Is the condition of the second if statement correct? 
+No
+
+  b) How will you change it?
+temScale < 1 && temScale > 4
+
+6. What is the value of the expression you just selected in the Watch window?
+56
+
+7. Answer the following questions:
+
+  a) Does the program compute the correct temperature in Rankine degrees?  In Reamur degrees?
+The program computer the correct values in Rankine degrees, but incorrect in Reaumur degrees.
+
+  b) Does the program assign the correct value for the variable tempScaleStr?
+No
+
+  c) How can you modify the program to compute this equivalence properly?
+1. For the first else-if statement, change the boolean expression to tempScale == 2
+2. Change the second else-if statement to convertedDegrees = (fahrenheit - 32)*4/9

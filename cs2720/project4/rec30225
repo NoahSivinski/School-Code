@@ -1,0 +1,21 @@
+project4:
+total 312
+-rw-r--r--. 1 myid    520 Mar 28 23:20 input.txt
+-rw-r--r--. 1 myid    351 Apr  8 14:27 makefile
+-rw-r--r--. 1 myid    530 Apr  7 13:49 makefile~
+-rw-r--r--. 1 myid   1327 Apr  9 23:13 output.txt
+-rwxr-xr-x. 1 myid  41632 Apr  9 23:13 project4
+-rw-r--r--. 1 myid 129253 Mar 28 23:17 Project 4.pdf
+-rw-r--r--. 1 myid     54 Apr  9 23:08 README.txt
+-rw-r--r--. 1 myid     30 Apr  9 23:07 README.txt~
+-rw-r--r--. 1 myid    929 Apr  9 23:09 rec25958
+-rw-r--r--. 1 myid      0 Apr  9 23:14 rec30225
+-rw-r--r--. 1 myid   4143 Apr  9 22:55 TreeDr.cpp
+-rw-r--r--. 1 myid   3788 Apr  9 18:51 TreeDr.cpp~
+-rw-r--r--. 1 myid  12592 Apr  9 23:13 TreeDr.o
+-rw-r--r--. 1 myid   7937 Apr  9 23:13 TreeType.cpp
+-rw-r--r--. 1 myid   7778 Apr  8 18:40 TreeType.cpp~
+-rw-r--r--. 1 myid   1449 Apr  8 19:35 TreeType.h
+-rw-r--r--. 1 myid   1491 Apr  8 18:40 TreeType.h~
+-rw-r--r--. 1 myid  60096 Apr  9 23:13 TreeType.o
+/home/myid/ncs34188/cs2720/project4:/home/myid/csci-2720c

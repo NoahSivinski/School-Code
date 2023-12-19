@@ -1,0 +1,302 @@
+#include "TreeType.h"
+#include <queue>
+
+struct TreeNode
+{
+  ItemType info;
+  TreeNode *left;
+  TreeNode *right;
+}; // TreeNode
+
+TreeType::TreeType()
+{
+  root = NULL;
+  length = 0;
+} // TreeType
+
+TreeType::~TreeType()
+// Calls recursive function destroy to destroy the tree.
+{
+  destroy(root);
+} // ~TreeType
+
+void TreeType::makeEmpty()
+{
+  destroy(root);
+  root = NULL;
+  length = 0;
+} // makeEmpty
+
+void TreeType::destroy(TreeNode *&tree)
+// Post: tree is empty; nodes have been deallocated.
+{
+  if (tree != NULL)
+  {
+    destroy(tree->left);
+    destroy(tree->right);
+    delete tree;
+  }
+} // destroy
+
+bool TreeType::isEmpty() const
+// Returns true if the tree is empty; false otherwise.
+{
+  return root == NULL;
+} // isEmpty
+
+int TreeType::getLength() const
+{
+  return length;
+} // getLength
+
+void TreeType::putItem(ItemType item)
+// Calls recursive function insert to insert item into tree.
+{
+  insert(root, item);
+  length++;
+} // putItem
+
+// helper Function for putItem
+void TreeType::insert(TreeNode *&tree, ItemType item)
+// inserts item into tree.
+// Post:  item is in tree; binary search property is maintained.
+{
+  if (tree == NULL)
+  { // insertion place found.
+    tree = new TreeNode;
+    tree->left = NULL;
+    tree->right = NULL;
+    tree->info = item;
+  }
+  else if (item < tree->info)
+    insert(tree->left, item); // insert in left subtree.
+  else
+    insert(tree->right, item); // insert in right subtree.
+} // insert
+
+void TreeType::deleteItem(ItemType item, ofstream &outFile)
+// Calls recursive function remove to delete item from tree.
+{
+  remove(root, item, outFile);
+  length--;
+} // deleteItem
+
+void TreeType::remove(TreeNode *&tree, ItemType item, ofstream &outFile)
+// Deletes item from tree.
+// Post:  item is not in tree.
+{
+  if (tree == NULL) {
+    outFile << item << " is not in tree." << endl;
+    length++;	// if item not found, then this length++ offsets the length-- in deleteItem()
+  } // if
+  else if (item < tree->info)
+    remove(tree->left, item, outFile); // Look in left subtree.
+  else if (item > tree->info)
+    remove(tree->right, item, outFile); // Look in right subtree.
+  else
+    deleteNode(tree, outFile); // Node found; call deleteNode
+} // remove
+
+void TreeType::deleteNode(TreeNode *&tree, ofstream &outFile)
+// Modify this function to call the getSuccessor function instead of getPredecessor
+{
+  TreeNode *tempPtr;
+  tempPtr = tree;
+
+  if (tree->left == NULL)
+  {
+    tree = tree->right;
+    delete tempPtr;
+  }
+  else if (tree->right == NULL)
+  {
+    tree = tree->left;
+    delete tempPtr;
+  }
+  else
+  {
+    TreeNode *predNode = getSuccessor(tree->left);
+    tree->info = predNode->info;
+    remove(tree->left, predNode->info, outFile); // Delete predecessor node.
+  }
+} // deleteNode
+
+//Helper function for deleteNode
+TreeNode *TreeType::getPredecessor(TreeNode *tree) const
+{
+  while (tree->right != NULL)
+    tree = tree->right;
+  return tree;
+} // getPredecessor
+
+TreeNode *TreeType::getSuccessor(TreeNode *tree) const
+// Implement this function
+{
+  while (tree->left != NULL)
+    tree = tree->left;
+  return tree; //you should change this return statement after implementing this function
+} // getSuccessor
+
+void TreeType::print(ofstream &outFile) const
+// Calls recursive function inOrderTraverse to print items in the tree.
+{
+  inOrderTraverse(root, outFile);
+  outFile << endl;
+} // print
+
+// Helper function for print
+void TreeType::inOrderTraverse(TreeNode *tree, ofstream &outFile) const
+// Prints info member of items in tree in sorted order on screen.
+{
+  if (tree != NULL)
+  {
+    inOrderTraverse(tree->left, outFile); // Print left subtree.
+    outFile << tree->info << " ";
+    inOrderTraverse(tree->right, outFile); // Print right subtree.
+  }
+} // inOrderTraverse
+
+void TreeType::preOrderPrint(ofstream &outFile) const
+// Implement this function, You may call a helper function
+{
+  preOrderTraverse(root, outFile);
+  outFile << endl;
+} // preOrderPrint
+
+void TreeType::postOrderPrint(ofstream &outFile) const
+// Implement this function, You may call a helper function
+{
+  postOrderTraverse(root, outFile);
+  outFile << endl;
+} // postOrderPrint
+
+// Helper function for pre and post order traversal
+void TreeType::preOrderTraverse(TreeNode *tree, ofstream &outFile) const
+// Prints info member of items in tree in sorted order on screen.
+{
+  if (tree != NULL)
+  {
+    outFile << tree->info << " ";
+    preOrderTraverse(tree->left, outFile); // Print left subtree.
+    preOrderTraverse(tree->right, outFile); // Print right subtree.
+  }
+} // preOrderTraverse
+
+// Helper function for pre and post order traversal
+void TreeType::postOrderTraverse(TreeNode *tree, ofstream &outFile) const
+// Prints info member of items in tree in sorted order on screen.
+{
+  if (tree != NULL)
+  {
+    postOrderTraverse(tree->left, outFile); // Print left subtree.
+    postOrderTraverse(tree->right, outFile); // Print right subtree.
+    outFile << tree->info << " ";
+  } // if
+} // postOrderTraverse
+
+void TreeType::levelOrderPrint(ofstream &outFile) const
+//Implement this function, you May use a data structure
+{
+  // Base Case 
+    if (root == NULL) return; 
+  
+    // Create an empty queue for level order traversal 
+    queue<TreeNode *> q; 
+  
+    // Enqueue Root and initialize height 
+    q.push(root); 
+  
+    while (q.empty() == false) 
+    { 
+        // nodeCount (queue size) indicates number
+        // of nodes at current lelvel. 
+        int nodeCount = q.size(); 
+  
+        // Dequeue all nodes of current level and 
+        // Enqueue all nodes of next level 
+        while (nodeCount > 0)
+        { 
+            TreeNode *node = q.front(); 
+            outFile << node->info << " "; 
+            q.pop(); 
+            if (node->left != NULL) 
+                q.push(node->left); 
+            if (node->right != NULL) 
+                q.push(node->right); 
+            nodeCount--; 
+        } // while 
+    } // while
+    outFile << endl;
+} // levelOrderPrint
+
+// helper function for levelOrderPrint, prints one level
+void TreeType::printLevel(TreeNode *tree, int level, ofstream &outFile) const
+{
+    if(tree != NULL)
+    {
+        if(level == 0)
+        {
+            outFile << tree->info << " ";
+        } else {
+	  printLevel(tree->left, level-1, outFile);
+	  printLevel(tree->right, level-1, outFile);
+        } // if-else
+    } // if
+} // printLevel
+
+//prints ancestors of value
+void TreeType::printAncestors(ItemType value, ofstream &outFile) const
+// Implement this function, You may call a helper function
+{
+  /* base cases */
+  if (root == NULL)
+    return;
+  if (root->info == value)
+    outFile << value << " has no ancestors";
+
+  if (!findAncestors(root, value, outFile)) {
+    outFile << value << " is not in the tree";
+  } // if
+  outFile << endl;
+} // printAncestors
+
+//helper function for printAncestors, finds the ancestors for value
+bool TreeType::findAncestors(TreeNode *tree, ItemType value, ofstream &outFile) const {
+  if (tree == NULL) {
+    return false;
+  } // if
+
+  //value is root
+  if (tree->info == value)
+    return true;
+
+  //recursively searches for ancestors
+  if (findAncestors(tree->left, value, outFile) || findAncestors(tree->right, value, outFile)) {
+    outFile << tree->info << " ";
+    return true;
+  } // if
+
+  return false;
+} // ancestor
+
+void TreeType::mirrorImage(TreeType &t) const
+// calls the helper function mirror
+{
+  mirror(t.root, root);
+} // mirrorImage
+
+// helper function for mirrorImage
+void TreeType::mirror(TreeNode *&copy, const TreeNode *originalTree) const
+// implement this function
+// Post: copy is the root of a tree that is a mirror Image of originalTree.
+// HINT: this function can be implemented in a very similar way as the copyTree() function in the slides
+{
+  if (originalTree == NULL)
+    copy = NULL;
+  else {
+    copy = new TreeNode;
+    copy->info = originalTree->info;
+    mirror(copy->left, originalTree->right);
+    mirror(copy->right, originalTree->left);
+  } // if-else
+} // mirror

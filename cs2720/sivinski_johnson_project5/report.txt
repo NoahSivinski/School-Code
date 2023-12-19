@@ -1,0 +1,79 @@
+report.txt
+Noah Sivinski, UGA ID: 811729354
+Cedric Johnson II, UGA ID: 811480235
+
+CSCI 2720 Project 5
+Sorting Algorithms Report
+
+I. QuickSort Implementation
+----------------------------
+The QuickSort algorithm is based on the strategy of "divide and
+conquer", which involves sorting two smaller lists rather than
+one large list. The pivoting and partitioning strategy for this
+project's implementation of QuickSort uses the first element of
+the array as the pivot, and partitions the array around it. 
+
+II. Total Number of Comparisons by Algorithm
+------------------------------------------------
+a.) Insertion Sort
+    i.) Ordered.txt: 0; O(n)
+   ii.) Random.txt: 25,144,672; O(n^2)
+  iii.) Reverse.txt: 49,995,000; O(n^2)
+
+b.) Selection Sort
+   i.) Ordered.txt: 49,995,000; O(n^2)
+  ii.) Random.txt: 49,995,000; O(n^2)
+ iii.) Reverse.txt: 49,995,000; O(n^2)
+
+c.) Merge Sort
+   i.) Ordered.txt: 69,008; O(n log n)
+  ii.) Random.txt: 120,414; O(n log n)
+ iii.) Reverse.txt: 64,608; O(n log n)
+
+d.) HeapSort
+   i.) Ordered.txt: 122,288; O(n log n)
+  ii.) Random.txt: 117,720; O(n log n)
+ iii.) Reverse.txt: 113,360; O(n log n)
+
+e.) QuickSort
+   i.) Ordered.txt: 19,998; O(n^2)
+  ii.) Random.txt: 61,506; O(n log n)
+ iii.) Reverse.txt: 19,998; O(n^2)
+
+III. Extra Space/Memory Allocation Analysis
+------------------------------------------------
+- Insertion sort: No use of an additional array/list
+
+- Selection sort: No use of an additional array/list
+
+- Merge sort: Use of another data structure, tempArray, in
+  	      merge of subarrays. May be as large as input
+	      array. Created temp arrays to split the array in
+	      half, and then recursively call itself with the two
+	      halves, and then merges the two sorted halves.
+	      	     
+- Heapsort: No use of an additional array/list, but
+  	    use of the heap data structure and recursion
+	    represents potentially expensive overhead.
+
+- Quicksort: No use of an additional array/list, but
+  	      recursive approach uses additional memory space.
+
+IV. Comparing Sorting Algorithms
+------------------------------------------------
+Based on our experimental results...
+
+- For an Ordered or nearly sorted arrays: The best sorting
+  algorithm is Insertion sort, as it computes in linear time or
+  O(n) with respect to comparisons.
+
+- For Random: The best sorting algorithm is Quicksort as it computes
+  in O(n log n) time with respect to comparisons. 
+
+- For Reverse: The best sorting algorithm is Quicksort. Although its
+  worse-case complexity with respect to comparisons is O(n^2),
+  our experiment shows it can still perform better than the other
+  algorithms in the more common cases.
+  
+- Overall: The best sorting algorithm is Quicksort, due to its efficiency
+  and performance for most inputs in the average case.

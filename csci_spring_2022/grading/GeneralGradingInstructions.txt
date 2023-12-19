@@ -1,0 +1,38 @@
+
+General Grading Instructions for CSCI 1301
+================================================
+
+
+1. Download the student's submissions as .zip file from eLC.
+   For example, Lab02.zip (change file name if needed).
+
+2. Copy the student's submissions .zip file to the lab's
+   submissions folder (e.g. copy Lab02.zip to lab02/submissions/).
+   This may require to use a sftp or scp software:
+      MobaXterm for Windows
+      Cyberduck on Mac
+      FileZilla
+
+3. cd into the lab's submissions directory and unzip the file
+   unzip Lab02.zip
+   Check if any files submitted are not .java files. Files that
+   aren't .java should be moved to another directory and be
+   graded manually. You may ignore the index.html file.
+
+4. Check for the keyword package
+   cat *.java | grep package
+   Files that use a package declaration should be moved into
+   another folder for manual grading. When grading .java files
+   with a package, comment out the package declaration, then compile
+   and run normally. -10 points should be deducted from the student's
+   score if they used a package.
+   
+5. Run the interactive grading program and grade the student's work.
+   make run2
+   The grading program will create a file output.txt with a summary
+   of grades when you quit the program. Manually grade those students
+   who do not get a 100 out of 100 score. 
+
+6. Record numeric grades and writen feedback on eLC for any points
+   that were deducted from a student's submission
+

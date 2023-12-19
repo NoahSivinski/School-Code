@@ -1,0 +1,28 @@
+#include <string>
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+class Sort
+{
+public:
+  Sort();
+  ~Sort();
+  int* insertionSort(int[]);
+  int* selectionSort(int[]);
+  int* mergeSort(int[], int, int);
+  int* heapSort(int[]);
+  int* quickSort(int[], int, int);
+  int getCount();
+ 
+private:
+  int* arr;
+  int size;
+  long count;
+
+  void merge(int arr[], int l, int m, int r); 
+  void reheapDown(int arr[], int root, int bottom);
+  void splitArray(int arr[], int first, int last, int& splitPoint);
+
+};

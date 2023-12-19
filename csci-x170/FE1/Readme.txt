@@ -1,0 +1,1 @@
+Run normally. Used the following libraries: tkinter, datetime, seaborn, warnings, matplotlib, heapq, numpy.

@@ -1,0 +1,23 @@
+project1:
+total 148
+-rw-r--r--. 1 myid   287 Jan 30 14:04 intcommands.txt
+-rw-r--r--. 1 myid   549 Feb  5 16:00 makefile
+-rw-r--r--. 1 myid   559 Feb  5 15:48 makefile~
+-rw-r--r--. 1 myid   322 Feb  5 18:31 outFile.txt
+-rwxr-xr-x. 1 myid 31080 Feb  5 18:31 project1
+-rw-r--r--. 1 myid     0 Feb  5 18:34 rec17222
+-rw-r--r--. 1 myid   161 Jan 30 14:04 studcommands.txt
+-rw-r--r--. 1 myid   909 Feb  5 18:30 Student.cpp
+-rw-r--r--. 1 myid   891 Feb  5 15:41 Student.cpp~
+-rw-r--r--. 1 myid   489 Feb  5 16:08 Student.h
+-rw-r--r--. 1 myid   487 Feb  5 15:53 Student.h~
+-rw-r--r--. 1 myid  5384 Feb  5 18:30 Student.o
+-rw-r--r--. 1 myid  2117 Feb  5 18:12 UnsortedList.cpp
+-rw-r--r--. 1 myid  2116 Feb  5 13:04 UnsortedList.cpp~
+-rw-r--r--. 1 myid  6530 Feb  5 18:31 UnsortedListDriver.cpp
+-rw-r--r--. 1 myid  6417 Feb  5 15:32 UnsortedListDriver.cpp~
+-rw-r--r--. 1 myid 34296 Feb  5 18:31 UnsortedListDriver.o
+-rw-r--r--. 1 myid  2040 Feb  2 15:56 UnsortedList.h
+-rw-r--r--. 1 myid  2040 Jan 30 14:05 UnsortedList.h~
+-rw-r--r--. 1 myid  1072 Feb  5 18:12 UnsortedList.o
+/home/myid/ncs34188/cs2720/project1:/home/myid/csci-2720c

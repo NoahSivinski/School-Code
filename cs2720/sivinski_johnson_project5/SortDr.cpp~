@@ -1,0 +1,55 @@
+#include "Sort.h"
+
+void printArray(int* input);
+
+int main(int argc,  char **argv)
+{
+  Sort sort;
+  string command;
+  ifstream inFile;
+  inFile.open(argv[1]);
+  int array [10000];
+  for (int i = 0; i < 10000; i++) {
+    inFile >> array[i];
+  } // for
+  
+  cout << "(i)insertion sort (s)selection sort (m)merge sort (h)heapsort (q)quicksort" << endl;
+  cout << "Enter the algorithm: ";
+
+  string alg;
+  cin >> alg;
+  cout << endl;
+
+  if (alg == "i") {
+    int* arr = sort.insertionSort(array);
+    printArray(arr);
+    cout << "#insertion sort comparisons: " << sort.getCount() << endl;
+  } else if (alg == "s") {
+    int* arr = sort.selectionSort(array);
+    printArray(arr);
+    cout << "#selection sort comparisons: " << sort.getCount() << endl;
+  } else if (alg == "m") {
+    int* arr = sort.mergeSort(array, 0, 9999);
+    printArray(arr);
+    cout << "#merge sort comparisons: " << sort.getCount() << endl;
+  } else if (alg == "h") {
+    int* arr = sort.heapSort(array);
+    printArray(arr);
+    cout << "#heap sort comparisons: " << sort.getCount() << endl;
+  } else if (alg == "g") {
+    int* arr = sort.quickSort(array);
+    printArray(arr);
+    cout << "#quick sort comparisons: " << sort.getCount() << endl;
+  } // if-else
+  
+  
+  return 0;
+  
+} // main
+
+void printArray(int* input) {
+  for (int i = 0; i < 10000; i++) {
+    cout << input[i] << " ";
+  } // for
+  cout << endl;
+} // printArray

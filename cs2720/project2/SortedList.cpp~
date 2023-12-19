@@ -1,0 +1,173 @@
+#include "SortedList.h"
+
+template <class ItemType> SortedList<ItemType>::SortedList() {
+  head = nullptr;
+  length = 0;
+} // SortedList constructor
+
+template <class ItemType> SortedList<ItemType>::~SortedList() {
+  makeEmpty();
+} // ~SortedList
+
+template <class ItemType> bool SortedList<ItemType>::isEmpty() const {
+  return (length == 0);
+} // isEmpty
+
+template <class ItemType> int SortedList<ItemType>::getLength() const {
+  return length;
+} // getLength
+
+template <class ItemType> void SortedList<ItemType>::makeEmpty() {
+  Node<ItemType>* temp = nullptr;
+  while (head != nullptr) {
+    temp = head;
+    head = head->next;
+    delete temp;
+  } // while
+  length = 0;
+} // makeEmpty
+
+template <class ItemType> ItemType SortedList<ItemType>::getAt(int index) {
+  if (index < 1 || index > length) {
+    throw OutOfBound();
+  } //if
+  Node<ItemType>* temp = head;
+  for (int i = 1; i < index; i++) {
+    temp = temp->next;
+  } //for
+  return temp->info;
+} // getAt
+
+template <class ItemType> void SortedList<ItemType>::putItem(ItemType newItem) {
+  if (findItem(newItem).first == true) {
+    throw DuplicateItem();
+  } else {
+    Node<ItemType>* newNode = nullptr;  // pointer to node being inserted
+    Node<ItemType>* predLoc = nullptr;  // trailing pointer
+    Node<ItemType>* location = head; // traveling pointer
+    // Prepare node for insertion
+    newNode= new Node<ItemType>;
+    newNode->info = newItem;
+    // Find insertion point.
+    while ((location != nullptr) && ( newItem > location->info))  {
+      // operators > must me overloaded for any ItemType object
+      predLoc= location;
+      location = location->next;
+    }
+    // Insert node into list.
+    if (predLoc== nullptr) {
+      // Insert as first or check if location ==ListData
+      newNode->next = location;
+      head = newNode;
+    } else {
+      newNode->next = location;
+      predLoc->next = newNode;
+    }
+    length++;
+  } // if-else
+} // getAt
+
+template <class ItemType> void SortedList<ItemType>::deleteItem(ItemType item) {
+  
+  if (!findItem(item).first) {
+    throw DeletingMissingItem();
+  } else {
+    Node<ItemType>* location = head;
+    Node<ItemType>* predLoc;
+    // Locate node to be deleted.
+    // check if item exists in the first node
+    if(item == head->info) {
+      head = head->next; // Delete first node.
+    } else {
+      while (item != (location->info)) {
+	predLoc = location;
+	location = location->next;
+      }
+      // Delete node at location->next
+      predLoc->next = location->next;
+    }
+    //delete location; // deallocate the node
+  
+    length--;
+  }
+} // getAt
+
+template <class ItemType> void SortedList<ItemType>::printList(ofstream& outFile) {
+  outFile << "List Items : ";
+  if (length > 0) {
+    Node<ItemType>* temp = head;
+    while (temp != NULL) {
+      outFile << temp->info << "->";
+      temp = temp->next;
+    } // while
+  }
+  outFile <<  "NULL\n";
+} // getAt
+
+template <class ItemType> void SortedList<ItemType>::merge(SortedList& otherList) {
+  Node<ItemType>* temp = nullptr;
+  //Node<ItemType>* l2;
+  
+  if (head == nullptr || otherList.head == nullptr) {
+    if (head == nullptr && otherList.head != nullptr) {
+      head = otherList.head;
+      length = otherList.length;
+      otherList.head = nullptr;
+      otherList.length = 0;
+      //otherList.makeEmpty();
+      return;
+    } else {
+      return;
+    } // if-else
+  } // if
+  
+  if (head->info < otherList.head->info) {
+    temp = head;
+    head = head->next;
+  } else {
+    temp = otherList.head;
+    otherList.head = otherList.head->next;
+  } // if-else
+
+  Node<ItemType>* curr = temp;
+  int count = 0;
+  while (head != NULL && otherList.head != NULL) {
+    if (head->info < otherList.head->info) {
+      curr->next = head;
+      head = head->next;
+    } else if (head->info > otherList.head->info) {
+      curr->next = otherList.head;
+      otherList.head = otherList.head->next;
+    } else {
+      curr->next = head;
+      head = head->next;
+      otherList.head = otherList.head->next;
+    } // if-else
+    curr = curr->next;
+    count++;
+  } // while
+
+  curr->next = (head == NULL) ? otherList.head : head;
+  length = count + 1;
+  head = temp;
+  otherList.head = nullptr;
+  otherList.length = 0;
+  
+} // getAt
+
+template <class ItemType> pair<bool, Node<ItemType>*>  SortedList<ItemType>::findItem(ItemType item) {
+  pair<bool, Node<ItemType>*> pair1(false, nullptr);
+  Node<ItemType>* temp = head;
+  Node<ItemType>* predLoc = nullptr;
+  while (temp != nullptr && !pair1.first) {
+    if (temp->info == item) {
+      pair1.first = true;
+    } else {
+      predLoc = temp;
+      temp = temp->next;
+    } // if-else
+  } // while
+  
+  pair1.second = predLoc;
+  return pair1;
+} // findItem

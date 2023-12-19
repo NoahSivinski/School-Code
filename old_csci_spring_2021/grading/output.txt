@@ -1,0 +1,1586 @@
+======================================
+Grading Summary for Lab 13
+======================================
+
+---------------------------------
+Aaron Brown
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Aaron Shurley
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Alice Szymkiewicz
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Allan Waweru
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Amir Ali
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;/**if sum becomes greater the break**/"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;/**if sum becomes greater the break**/"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Anastasia Antoine
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum > sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum > sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Anchal Patel
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Angel Marsh
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Anjali Shajan
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 failed:	0 / 20 points
+    java.lang.ArrayIndexOutOfBoundsException: 3
+    	at FindTheSums.verticalSums(FindTheSums.java:71)
+    	at FindTheSumsGrader.verticalSumsGrader(FindTheSumsGrader.java:138)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:73)
+    Test6 passed:	20 / 20 points
+    Total:		80 / 100 points
+
+Score: -20/100
+---------------------------------
+---------------------------------
+Anna Kerber
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Anvita Nagireddi
+
+Filenames...	PASSED
+On Time...	FAILED (-25)
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-80)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    
+    Test3:
+    Your method's answer:
+    0 0 0 0
+    0 0 0 0
+    0 0 0 0
+    Correct answer:
+    0 0 0 0
+    0 5 6 0
+    0 2 9 0
+    Test3 failed:	0 / 20 points
+    
+    Test4:
+    Your method's answer:
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Correct answer:
+    0 8 4 5 1
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Test4 failed:	0 / 20 points
+    
+    Test5:
+    Your method's answer:
+    3 2 1 1
+    2 5 0 0
+    0 0 0 0
+    Correct answer:
+    0 2 1 0
+    0 5 6 0
+    0 2 0 0
+    Test5 failed:	0 / 20 points
+    
+    Test6:
+    Your method's answer:
+    0 0 0 0 0
+    0 0 0 0 0
+    4 8 3 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    Correct answer:
+    0 0 0 0 1
+    5 0 0 0 8
+    4 0 0 0 1
+    5 6 0 0 5
+    1 2 0 0 0
+    9 7 0 0 0
+    Test6 failed:	0 / 20 points
+    Total:		20 / 100 points
+
+Score: -5/100
+---------------------------------
+---------------------------------
+Austin Brock
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Austin Perales
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Brianna Tiglao
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Carla Pena
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum > sumToFind) break; //break is used if sum becomes greater"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum > sumToFind) break; //break is used if sum becomes greater"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Casey Wesolowski
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-100)
+    
+    Test1:
+    Your method's answer:
+    3 2 1 1 
+    2 5 6 2 
+    1 2 9 8 
+    
+    Correct answer:
+    3 2 1 1
+    2 5 6 2
+    1 2 9 8
+    Test1 failed:	0 / 10 points
+    
+    Test2:
+    Your method's answer:
+    4 8 4 5 1 
+    5 4 5 2 8 
+    4 8 3 5 1 
+    5 6 6 4 5 
+    1 2 4 9 2 
+    9 7 4 3 1 
+    
+    Correct answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 3 1
+    Test2 failed:	0 / 10 points
+    3 2 1 1 
+    2 5 6 2 
+    1 2 9 8 
+    
+    Test3:
+    Your method's answer:
+    3 2 1 1
+    2 5 6 2
+    1 2 0 8
+    Correct answer:
+    0 0 0 0
+    0 5 6 0
+    0 2 9 0
+    Test3 failed:	0 / 20 points
+    4 8 4 5 1 
+    5 4 5 2 8 
+    4 8 3 5 1 
+    5 6 6 4 5 
+    1 2 4 9 2 
+    9 7 4 3 1 
+    
+    Test4:
+    Your method's answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 0 1
+    Correct answer:
+    0 8 4 5 1
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Test4 failed:	0 / 20 points
+    3 2 1 1 
+    2 5 6 2 
+    1 2 0 8 
+    
+    Test5:
+    Your method's answer:
+    3 2 1 1
+    2 5 6 2
+    1 2 0 8
+    Correct answer:
+    0 2 1 0
+    0 5 6 0
+    0 2 0 0
+    Test5 failed:	0 / 20 points
+    4 8 4 5 1 
+    5 4 5 2 8 
+    4 8 3 5 1 
+    5 6 6 4 5 
+    1 2 4 9 2 
+    9 7 4 0 1 
+    
+    Test6:
+    Your method's answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 0 1
+    Correct answer:
+    0 0 0 0 1
+    5 0 0 0 8
+    4 0 0 0 1
+    5 6 0 0 5
+    1 2 0 0 0
+    9 7 0 0 0
+    Test6 failed:	0 / 20 points
+    Total:		0 / 100 points
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Chidubem Ireh
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	FAILED (-10)
+  File "FindTheSums.java" missing the statement of academic honesty
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;/**if sum becomes greater the break**/"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;/**if sum becomes greater the break**/"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: -10/100
+---------------------------------
+---------------------------------
+Chloe Hangartner
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Chris Hernandez
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Cole Lanham
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Cole Wright
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Deborah Orekoya
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Delaney Ott
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Dominique Coney
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Ethan Delamater
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Ethan Milley
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Evan Zimmerman
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Fehintola Kofo-idowu
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	FAILED (-10)
+  File "FindTheSums.java" missing the statement of academic honesty
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 90/100
+---------------------------------
+---------------------------------
+Gage Roney
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Gigi Fulbright
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-60)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    Test3 passed:	20 / 20 points
+    
+    Test4:
+    Your method's answer:
+    0 8 4 5 0
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 0
+    0 0 0 0 0
+    Correct answer:
+    0 8 4 5 1
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Test4 failed:	0 / 20 points
+    
+    Test5:
+    Your method's answer:
+    0 2 1 0
+    0 5 6 0
+    0 0 0 0
+    Correct answer:
+    0 2 1 0
+    0 5 6 0
+    0 2 0 0
+    Test5 failed:	0 / 20 points
+    
+    Test6:
+    Your method's answer:
+    0 0 0 0 1
+    5 0 0 0 8
+    4 0 0 0 1
+    5 6 0 0 5
+    1 2 0 0 0
+    0 0 0 0 0
+    Correct answer:
+    0 0 0 0 1
+    5 0 0 0 8
+    4 0 0 0 1
+    5 6 0 0 5
+    1 2 0 0 0
+    9 7 0 0 0
+    Test6 failed:	0 / 20 points
+    Total:		40 / 100 points
+
+Score: 40/100
+---------------------------------
+---------------------------------
+Hriddhiman Dey
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Hunter Schramm
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Ian Seol
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 failed:	0 / 20 points
+    java.lang.ArrayIndexOutOfBoundsException: 5
+    	at FindTheSums.verticalSums(FindTheSums.java:92)
+    	at FindTheSumsGrader.verticalSumsGrader(FindTheSumsGrader.java:147)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:73)
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Jacob Glover
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Jaren Spitters
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 failed:	0 / 20 points
+    java.lang.ArrayIndexOutOfBoundsException: 5
+    	at FindTheSums.verticalSums(FindTheSums.java:117)
+    	at FindTheSumsGrader.verticalSumsGrader(FindTheSumsGrader.java:147)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:73)
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Jarvis Williams
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Joo Young Kang
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Joshua Wyatt
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Kaushal Patel
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Kyle Bai
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-80)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    
+    Test3:
+    Your method's answer:
+    0 0 0 0
+    0 5 0 0
+    0 2 0 0
+    Correct answer:
+    0 0 0 0
+    0 5 6 0
+    0 2 9 0
+    Test3 failed:	0 / 20 points
+    
+    Test4:
+    Your method's answer:
+    0 8 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 0 0 0 0
+    0 0 0 0 0
+    Correct answer:
+    0 8 4 5 1
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Test4 failed:	0 / 20 points
+    
+    Test5:
+    Your method's answer:
+    3 0 0 0
+    2 0 0 0
+    0 0 0 0
+    Correct answer:
+    0 2 1 0
+    0 5 6 0
+    0 2 0 0
+    Test5 failed:	0 / 20 points
+    
+    Test6:
+    Your method's answer:
+    0 0 0 0 0
+    0 0 5 0 0
+    4 0 0 0 0
+    0 0 6 0 0
+    0 2 4 0 0
+    0 7 0 0 0
+    Correct answer:
+    0 0 0 0 1
+    5 0 0 0 8
+    4 0 0 0 1
+    5 6 0 0 5
+    1 2 0 0 0
+    9 7 0 0 0
+    Test6 failed:	0 / 20 points
+    Total:		20 / 100 points
+
+Score: -80/100
+---------------------------------
+---------------------------------
+Lauren Murray
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	FAILED (-10)
+  File "FindTheSums.java" missing the statement of academic honesty
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: -10/100
+---------------------------------
+---------------------------------
+Madison Bardwell
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    
+    Test1:
+    Your method's answer:
+    3 2 1 1 
+    2 5 6 2 
+    1 2 9 8 
+    
+    Correct answer:
+    3 2 1 1
+    2 5 6 2
+    1 2 9 8
+    Test1 failed:	0 / 10 points
+    
+    Test2:
+    Your method's answer:
+    4 8 4 5 1 
+    5 4 5 2 8 
+    4 8 3 5 1 
+    5 6 6 4 5 
+    1 2 4 9 2 
+    9 7 4 3 1 
+    
+    Correct answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 3 1
+    Test2 failed:	0 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 passed:	20 / 20 points
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Mamadou Ly
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Matthew Hargrove
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Nancy Bishop
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    
+    Test1:
+    Your method's answer:
+    3 2 1 1 
+    2 5 6 2 
+    1 2 9 8 
+    
+    Correct answer:
+    3 2 1 1
+    2 5 6 2
+    1 2 9 8
+    Test1 failed:	0 / 10 points
+    
+    Test2:
+    Your method's answer:
+    4 8 4 5 1 
+    5 4 5 2 8 
+    4 8 3 5 1 
+    5 6 6 4 5 
+    1 2 4 9 2 
+    9 7 4 3 1 
+    
+    Correct answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 3 1
+    Test2 failed:	0 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 passed:	20 / 20 points
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Natalia Gonzalez
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Nataly Garcia
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Nazha Erakat
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 failed:	0 / 20 points
+    java.lang.ArrayIndexOutOfBoundsException: 5
+    	at FindTheSums.verticalSums(FindTheSums.java:80)
+    	at FindTheSumsGrader.verticalSumsGrader(FindTheSumsGrader.java:147)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:73)
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Nicholas Corwin
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Nnamdi Ubbaonu
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Ofuan Oyakhire
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "break; // go to the next row"
+  File "FindTheSums.java" uses disallowed keyword in line "break; // go to the next column"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Olivia Richardson
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 0/100
+---------------------------------
+---------------------------------
+Parth Patel
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	FAILED (-100)
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+  File "FindTheSums.java" uses disallowed keyword in line "if(sum>sumToFind)break;"
+  File "FindTheSums.java" uses disallowed keyword in line "break;"
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-1)
+    Exception in thread "main" java.lang.NoClassDefFoundError: FindTheSums (wrong name: FindTheSums/FindTheSums)
+    	at java.lang.ClassLoader.defineClass1(Native Method)
+    	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+    	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+    	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+    	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+    	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+    	at java.security.AccessController.doPrivileged(Native Method)
+    	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+    	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+    	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+    	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+    	at FindTheSumsGrader.arrayToStringGrader(FindTheSumsGrader.java:86)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:71)
+
+Score: -1/100
+---------------------------------
+---------------------------------
+Quinton Heald
+
+Filenames...	PASSED
+On Time...	FAILED (-25)
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 75/100
+---------------------------------
+---------------------------------
+Rayman Ng
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-20)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    Test5 passed:	20 / 20 points
+    Test6 failed:	0 / 20 points
+    java.lang.ArrayIndexOutOfBoundsException: 5
+    	at FindTheSums.verticalSums(FindTheSums.java:69)
+    	at FindTheSumsGrader.verticalSumsGrader(FindTheSumsGrader.java:147)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:73)
+    Total:		80 / 100 points
+
+Score: 80/100
+---------------------------------
+---------------------------------
+Reid Cogswell
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-1)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+
+Score: 99/100
+---------------------------------
+---------------------------------
+Samir Hadi-cisneros
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Scott Wagner
+
+Filenames...	PASSED
+On Time...	FAILED (-25)
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-90)
+    Test1 passed:	10 / 10 points
+    
+    Test2:
+    Your method's answer:
+     2 1 1
+    2 5 6 2
+    1 2 9 8
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 3 1
+    Correct answer:
+    4 8 4 5 1
+    5 4 5 2 8
+    4 8 3 5 1
+    5 6 6 4 5
+    1 2 4 9 2
+    9 7 4 3 1
+    Test2 failed:	0 / 10 points
+    
+    Test3:
+    Your method's answer:
+    0 0 0 0
+    0 0 0 0
+    1 2 0 8
+    Correct answer:
+    0 0 0 0
+    0 5 6 0
+    0 2 9 0
+    Test3 failed:	0 / 20 points
+    
+    Test4:
+    Your method's answer:
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Correct answer:
+    0 8 4 5 1
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Test4 failed:	0 / 20 points
+    
+    Test5:
+    Your method's answer:
+    0 2 1 0
+    0 5 6 0
+    0 0 0 0
+    Correct answer:
+    0 2 1 0
+    0 5 6 0
+    0 2 0 0
+    Test5 failed:	0 / 20 points
+    
+    Test6:
+    Your method's answer:
+    0 0 0 5 1
+    0 0 0 2 8
+    0 0 0 5 1
+    0 0 0 0 5
+    0 0 0 0 0
+    0 0 0 3 0
+    Correct answer:
+    0 0 0 0 1
+    5 0 0 0 8
+    4 0 0 0 1
+    5 6 0 0 5
+    1 2 0 0 0
+    9 7 0 0 0
+    Test6 failed:	0 / 20 points
+    Total:		10 / 100 points
+
+Score: -15/100
+---------------------------------
+---------------------------------
+Sean Payne
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Shovek Basu
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Skyler Coleman
+
+Filenames...	PASSED
+On Time...	FAILED (-25)
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-40)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    Test3 passed:	20 / 20 points
+    Test4 passed:	20 / 20 points
+    
+    Test5:
+    Your method's answer:
+    0 2 1 0
+    0 5 6 0
+    0 0 0 0
+    Correct answer:
+    0 2 1 0
+    0 5 6 0
+    0 2 0 0
+    Test5 failed:	0 / 20 points
+    Test6 failed:	0 / 20 points
+    java.lang.ArrayIndexOutOfBoundsException: 5
+    	at FindTheSums.verticalSums(FindTheSums.java:140)
+    	at FindTheSumsGrader.verticalSumsGrader(FindTheSumsGrader.java:147)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:73)
+    Total:		60 / 100 points
+
+Score: 35/100
+---------------------------------
+---------------------------------
+Sona Makkanal
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Stephanie Ibarra
+
+Filenames...	INCONCLUSIVE
+  Extra files in user submission detected
+  Submitted files:
+    FindTheSums.java
+    FindTheSumsTester.java
+  Expected files:
+    FindTheSums.java
+On Time...	PASSED
+Has SAH...	FAILED (-10)
+  File "FindTheSumsTester.java" missing the statement of academic honesty
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 90/100
+---------------------------------
+---------------------------------
+Sunny Shah
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Tiffany Chen
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Tolu Biobaku
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Vietmy Vo
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+William Malonda
+
+Filenames...	PASSED
+On Time...	PASSED
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	PASSED
+
+Score: 100/100
+---------------------------------
+---------------------------------
+Zachary Krausman
+
+Filenames...	PASSED
+On Time...	FAILED (-25)
+Has SAH...	PASSED
+Disallowed...	PASSED
+Copying...	PASSED
+Compiling...	PASSED
+Running...
+  Rubric Tester...	FAILED (-1)
+    Test1 passed:	10 / 10 points
+    Test2 passed:	10 / 10 points
+    
+    Test3:
+    Your method's answer:
+    3 2 1 0
+    0 0 0 0
+    0 0 0 0
+    Correct answer:
+    0 0 0 0
+    0 5 6 0
+    0 2 9 0
+    Test3 failed:	0 / 20 points
+    
+    Test4:
+    Your method's answer:
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 3 0
+    Correct answer:
+    0 8 4 5 1
+    0 0 0 0 0
+    0 0 0 0 0
+    0 0 0 0 0
+    1 2 4 9 2
+    0 0 0 0 0
+    Test4 failed:	0 / 20 points
+    Exception in thread "main" java.lang.NoSuchMethodError: FindTheSums.verticalSums([[II)[[I
+    	at FindTheSumsGrader.verticalSumsGrader(FindTheSumsGrader.java:138)
+    	at FindTheSumsGrader.main(FindTheSumsGrader.java:73)
+
+Score: 74/100
+---------------------------------

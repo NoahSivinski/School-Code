@@ -1,0 +1,76 @@
+cs1302-ce24:
+total 16
+-rw-r--r-- 1 ugrad 2657 Apr 19 09:28 pom.xml
+-rw-r--r-- 1 ugrad    0 Apr 19 12:43 rec78183
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:30 src
+-rw-r--r-- 1 ugrad   83 Apr 19 12:42 SUBMISSION.md
+drwxr-xr-x 5 ugrad 4096 Apr 19 09:33 target
+
+cs1302-ce24/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:19 main
+
+cs1302-ce24/src/main:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:19 java
+
+cs1302-ce24/src/main/java:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:19 cs1302
+
+cs1302-ce24/src/main/java/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 12:40 ce24
+
+cs1302-ce24/src/main/java/cs1302/ce24:
+total 16
+-rw-r--r-- 1 ugrad  808 Apr 19 10:46 DownUp.java
+-rw-r--r-- 1 ugrad  795 Apr 19 10:01 Fac.java
+-rw-r--r-- 1 ugrad  660 Apr 19 10:29 Fib.java
+-rw-r--r-- 1 ugrad 1070 Apr 19 12:40 SplitString.java
+
+cs1302-ce24/target:
+total 12
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:33 classes
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:33 generated-sources
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:33 maven-status
+
+cs1302-ce24/target/classes:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:33 cs1302
+
+cs1302-ce24/target/classes/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 12:40 ce24
+
+cs1302-ce24/target/classes/cs1302/ce24:
+total 16
+-rw-r--r-- 1 ugrad  825 Apr 19 12:40 DownUp.class
+-rw-r--r-- 1 ugrad  651 Apr 19 12:40 Fac.class
+-rw-r--r-- 1 ugrad  656 Apr 19 12:40 Fib.class
+-rw-r--r-- 1 ugrad 2208 Apr 19 12:40 SplitString.class
+
+cs1302-ce24/target/generated-sources:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 09:33 annotations
+
+cs1302-ce24/target/generated-sources/annotations:
+total 0
+
+cs1302-ce24/target/maven-status:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:33 maven-compiler-plugin
+
+cs1302-ce24/target/maven-status/maven-compiler-plugin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 09:33 compile
+
+cs1302-ce24/target/maven-status/maven-compiler-plugin/compile:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 09:33 default-compile
+
+cs1302-ce24/target/maven-status/maven-compiler-plugin/compile/default-compile:
+total 8
+-rw-r--r-- 1 ugrad 99 Apr 19 12:40 createdFiles.lst
+-rw-r--r-- 1 ugrad 97 Apr 19 09:33 inputFiles.lst
+/home/ugrads/sivinski/cs1302/exercises/exercise24/cs1302-ce24:/home/work/cs1302a

@@ -1,0 +1,88 @@
+#include "UnsortedList.h"
+
+template <class ItemType> UnsortedList<ItemType>::UnsortedList() {
+  Max_Items = 50;
+  length = 0;
+  info = new ItemType[Max_Items];
+} // UnsortedList
+
+
+template <class ItemType> UnsortedList<ItemType>::UnsortedList(int size) {
+  Max_Items = size;
+  length = 0;
+  info = new ItemType[Max_Items];
+} // UnsortedList
+
+
+template <class ItemType> UnsortedList<ItemType>::~UnsortedList() {
+  delete[] info;
+} // UnsortedList
+
+
+template <class ItemType> void UnsortedList<ItemType>::makeEmpty() {
+   ItemType* temp = new ItemType[Max_Items];
+  info = temp;
+  length = 0;
+} // makeEmpty
+
+template <class ItemType> bool UnsortedList<ItemType>::isEmpty() const {
+  if (length == 0) {
+    return true;
+  } else {
+    return false;
+  } // if-else
+} // makeEmpty
+
+template <class ItemType> bool UnsortedList<ItemType>::isFull() const {
+  if (length == Max_Items) {
+    return true;
+  } else {
+    return false;
+  } // if-else
+} // isFull
+
+template <class ItemType> void UnsortedList<ItemType>::putItem(ItemType newItem) {
+  if (isFull()) {
+    throw FullList();
+  } else if (findIndex(newItem) != -1) {
+    throw DuplicateItem();
+  } else {
+    info[length] = newItem;
+    length++;
+  } // if-else
+} // putItem
+
+template <class ItemType> void UnsortedList<ItemType>::deleteItem(ItemType Item) {
+  if (isEmpty()) {
+    throw ItemNotFound();
+  } else {
+    int location = findIndex(Item);
+    if (location == -1) {
+      throw ItemNotFound();
+    } // if
+    info[location] = info[length - 1];
+    length--;
+  } // if-else
+} // deleteItem
+
+template <class ItemType> int UnsortedList<ItemType>::getLength() const {
+  return length;
+} // getLength
+
+template <class ItemType> ItemType UnsortedList<ItemType>::getAt(int index) const {
+  if (index < 0 || index >= length) {
+    throw OutOfBound();
+  } else {
+    return info[index];
+  } // if-else
+} // getAt
+
+template <class ItemType> int UnsortedList<ItemType>::findIndex(ItemType item) const {
+  int index = -1;
+  for (int i = 0; i < length && index == -1; i++) {
+    if (item == info[i]) {
+      index = i;
+    } //if
+  } // for
+  return index;
+} // getAt

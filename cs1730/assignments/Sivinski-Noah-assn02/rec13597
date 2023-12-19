@@ -1,0 +1,17 @@
+Sivinski-Noah-assn02:
+total 0
+drwxr-xr-x. 2 myid 204 Sep 20 15:52 dist
+-rw-r--r--. 1 myid   0 Sep 20 15:54 rec13597
+
+Sivinski-Noah-assn02/dist:
+total 13428
+-rw-r--r--. 1 myid     1464 Sep 20 15:52 Account.h
+-rw-r--r--. 1 myid     2826 Sep 20 15:01 Account.h~
+-rw-r--r--. 1 myid 13590676 Sep 15 18:30 Account.h.gch
+-rw-r--r--. 1 myid   112674 Sep 15 17:37 assn02.pdf
+-rwxr-xr-x. 1 myid    15000 Sep 20 15:52 Driver
+-rw-r--r--. 1 myid      625 Sep 20 15:24 Driver.cpp
+-rw-r--r--. 1 myid      334 Sep 20 14:53 Driver.cpp~
+-rw-r--r--. 1 myid      116 Sep 20 14:46 makefile
+-rw-r--r--. 1 myid      125 Sep 20 14:46 makefile~
+/home/myid/ncs34188/cs1730/assignments/Sivinski-Noah-assn02:/home/myid/csci-1730

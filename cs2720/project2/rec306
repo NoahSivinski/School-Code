@@ -1,0 +1,29 @@
+project2:
+total 352
+-rw-r--r--. 1 myid    394 Feb 26 13:43 intcommands.txt
+-rw-r--r--. 1 myid    383 Feb 15 13:36 intcommands.txt~
+-rw-r--r--. 1 myid    530 Feb 26 18:03 makefile
+-rw-r--r--. 1 myid    503 Feb 26 11:33 makefile~
+-rw-r--r--. 1 myid   2718 Feb 26 18:04 outFile.txt
+-rw-r--r--. 1 myid   2690 Feb 26 16:45 outFile.txt~
+-rwxr-xr-x. 1 myid  35536 Feb 26 18:04 project2
+-rw-r--r--. 1 myid 152883 Feb 15 13:39 project2.pdf
+-rw-r--r--. 1 myid     54 Feb 26 18:06 README.txt
+-rw-r--r--. 1 myid     32 Feb 26 17:21 README.txt~
+-rw-r--r--. 1 myid   1377 Feb 26 18:07 rec30326
+-rw-r--r--. 1 myid      0 Feb 26 18:16 rec306
+-rw-r--r--. 1 myid   4691 Feb 26 18:15 SortedList.cpp
+-rw-r--r--. 1 myid   4798 Feb 26 18:04 SortedList.cpp~
+-rw-r--r--. 1 myid  11614 Feb 26 16:09 SortedListDr.cpp
+-rw-r--r--. 1 myid  11562 Feb 26 16:01 SortedListDr.cpp~
+-rw-r--r--. 1 myid  47504 Feb 26 18:04 SortedListDr.o
+-rw-r--r--. 1 myid   3338 Feb 15 13:35 SortedList.h
+-rw-r--r--. 1 myid   2200 Feb 26 18:04 SortedList.o
+-rw-r--r--. 1 myid   2943 Feb 26 18:04 soutFile.txt
+-rw-r--r--. 1 myid    621 Feb 15 13:37 studcommands.txt
+-rw-r--r--. 1 myid   1140 Feb 26 11:32 Student.cpp
+-rw-r--r--. 1 myid    978 Feb 24 17:51 Student.cpp~
+-rw-r--r--. 1 myid    981 Feb 26 11:32 Student.h
+-rw-r--r--. 1 myid    938 Feb 24 17:47 Student.h~
+-rw-r--r--. 1 myid   5256 Feb 26 18:04 Student.o
+/home/myid/ncs34188/cs2720/project2:/home/myid/csci-2720c

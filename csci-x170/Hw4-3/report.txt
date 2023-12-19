@@ -1,0 +1,6 @@
+I implemented all parts of part A and part B including commission and impact.
+I did not implement optimization in this lab.
+A limitation on this lab would be not having optimization and not being able to change/add more market factors that
+could influence prices.
+I have included the video and the report.
+The program should be able to run without any changes on the TA's end.

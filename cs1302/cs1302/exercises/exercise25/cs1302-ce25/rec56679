@@ -1,0 +1,74 @@
+cs1302-ce25:
+total 16
+-rw-r--r-- 1 ugrad 2657 Apr 19 13:00 pom.xml
+-rw-r--r-- 1 ugrad    0 Apr 19 15:31 rec56679
+drwxr-xr-x 3 ugrad 4096 Apr 19 13:01 src
+-rw-r--r-- 1 ugrad   83 Apr 19 15:30 SUBMISSION.md
+drwxr-xr-x 5 ugrad 4096 Apr 19 13:06 target
+
+cs1302-ce25/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 12:58 main
+
+cs1302-ce25/src/main:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 12:58 java
+
+cs1302-ce25/src/main/java:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 12:58 cs1302
+
+cs1302-ce25/src/main/java/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 15:29 ce25
+
+cs1302-ce25/src/main/java/cs1302/ce25:
+total 12
+-rw-r--r-- 1 ugrad  999 Apr 19 14:11 Find.java
+-rw-r--r-- 1 ugrad 1602 Apr 19 15:28 ShrinkString.java
+-rw-r--r-- 1 ugrad 1284 Apr 19 15:29 Tree.java
+
+cs1302-ce25/target:
+total 12
+drwxr-xr-x 3 ugrad 4096 Apr 19 13:07 classes
+drwxr-xr-x 3 ugrad 4096 Apr 19 13:06 generated-sources
+drwxr-xr-x 3 ugrad 4096 Apr 19 13:06 maven-status
+
+cs1302-ce25/target/classes:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 13:07 cs1302
+
+cs1302-ce25/target/classes/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 15:27 ce25
+
+cs1302-ce25/target/classes/cs1302/ce25:
+total 12
+-rw-r--r-- 1 ugrad 2412 Apr 19 15:27 Find.class
+-rw-r--r-- 1 ugrad 1579 Apr 19 15:27 ShrinkString.class
+-rw-r--r-- 1 ugrad 2610 Apr 19 15:27 Tree.class
+
+cs1302-ce25/target/generated-sources:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 13:06 annotations
+
+cs1302-ce25/target/generated-sources/annotations:
+total 0
+
+cs1302-ce25/target/maven-status:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 13:06 maven-compiler-plugin
+
+cs1302-ce25/target/maven-status/maven-compiler-plugin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 13:06 compile
+
+cs1302-ce25/target/maven-status/maven-compiler-plugin/compile:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 13:06 default-compile
+
+cs1302-ce25/target/maven-status/maven-compiler-plugin/compile/default-compile:
+total 8
+-rw-r--r-- 1 ugrad 77 Apr 19 15:27 createdFiles.lst
+-rw-r--r-- 1 ugrad 98 Apr 19 13:06 inputFiles.lst
+/home/ugrads/sivinski/cs1302/exercises/exercise25/cs1302-ce25:/home/work/cs1302a

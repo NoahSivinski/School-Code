@@ -1,0 +1,79 @@
+cs1302-ce23:
+total 16
+drwxr-xr-x 4 ugrad  4096 Apr 19 08:59 cs1302-ce23-mvn
+-rw-r--r-- 1 ugrad 11178 Apr 18 19:12 README.md
+-rw-r--r-- 1 ugrad     0 Apr 19 09:01 rec41389
+
+cs1302-ce23/cs1302-ce23-mvn:
+total 16
+-rw-r--r-- 1 ugrad 2665 Apr 19 06:55 pom.xml
+drwxr-xr-x 3 ugrad 4096 Apr 19 06:57 src
+-rw-r--r-- 1 ugrad   83 Apr 19 08:59 SUBMISSION.md
+drwxr-xr-x 5 ugrad 4096 Apr 19 07:01 target
+
+cs1302-ce23/cs1302-ce23-mvn/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 06:50 main
+
+cs1302-ce23/cs1302-ce23-mvn/src/main:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 06:50 java
+
+cs1302-ce23/cs1302-ce23-mvn/src/main/java:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 06:50 cs1302
+
+cs1302-ce23/cs1302-ce23-mvn/src/main/java/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 08:56 ce23
+
+cs1302-ce23/cs1302-ce23-mvn/src/main/java/cs1302/ce23:
+total 12
+-rw-r--r-- 1 ugrad 3872 Apr 18 19:12 Employee.java
+-rw-r--r-- 1 ugrad 2711 Apr 19 08:56 StreamPractice.java
+-rw-r--r-- 1 ugrad  918 Apr 18 19:12 Utility.java
+
+cs1302-ce23/cs1302-ce23-mvn/target:
+total 12
+drwxr-xr-x 3 ugrad 4096 Apr 19 07:01 classes
+drwxr-xr-x 3 ugrad 4096 Apr 19 07:01 generated-sources
+drwxr-xr-x 3 ugrad 4096 Apr 19 07:01 maven-status
+
+cs1302-ce23/cs1302-ce23-mvn/target/classes:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 08:56 cs1302
+
+cs1302-ce23/cs1302-ce23-mvn/target/classes/cs1302:
+total 8
+drwxr-xr-x 2 ugrad 4096 Apr 19 08:56 ce23
+-rw-r--r-- 1 ugrad  832 Apr 19 08:56 Utility.class
+
+cs1302-ce23/cs1302-ce23-mvn/target/classes/cs1302/ce23:
+total 12
+-rw-r--r-- 1 ugrad 3580 Apr 19 08:56 Employee.class
+-rw-r--r-- 1 ugrad 5335 Apr 19 08:56 StreamPractice.class
+
+cs1302-ce23/cs1302-ce23-mvn/target/generated-sources:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 07:01 annotations
+
+cs1302-ce23/cs1302-ce23-mvn/target/generated-sources/annotations:
+total 0
+
+cs1302-ce23/cs1302-ce23-mvn/target/maven-status:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 07:01 maven-compiler-plugin
+
+cs1302-ce23/cs1302-ce23-mvn/target/maven-status/maven-compiler-plugin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 19 07:01 compile
+
+cs1302-ce23/cs1302-ce23-mvn/target/maven-status/maven-compiler-plugin/compile:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 19 07:01 default-compile
+
+cs1302-ce23/cs1302-ce23-mvn/target/maven-status/maven-compiler-plugin/compile/default-compile:
+total 8
+-rw-r--r-- 1 ugrad  81 Apr 19 08:56 createdFiles.lst
+-rw-r--r-- 1 ugrad 359 Apr 19 07:01 inputFiles.lst
+/home/ugrads/sivinski/cs1302/exercises/exercise23/cs1302-ce23:/home/work/cs1302a

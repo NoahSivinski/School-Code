@@ -1,0 +1,42 @@
+CSCI 1301 - Lab 05
+Debugging Worksheet
+
+Student Name:	
+
+1. What do you observe when you run the program? It says unknown temperature scale - cannot do calculation
+
+2. Where (what line numbers) have you set the breakpoints? lines 58,61,69,73,81,85 (I made some of the code like the temp scales print out
+to be on one line instead of multiple becasue it makes it easier to read for me to read. I realize this may make my breakpoints at differnt 
+lines hopefully thats ok.)
+
+3. What is the value of the named constant MIN_FAHRENHEIT and the variable tempScaleStr displayed in the Variables window? 
+
+	MIN_FAHRENHEIT: -459.67	
+	
+	tempScaleStr: ""(id=22)
+
+4. Answer the following questions:
+
+  a) Does the first if statement display the error message correctly? yes
+  b) What is the problem? The greater than need to be a less than in the if statement so it will conitue if the user input is greater than
+ MIN_FAHRENHEIT
+  c) How would you fix the program so it terminates when the user enters a Fahrenheit temperature less than the possible minimum 
+temperature? I would switch the greater than sign to a less than sign in the first if statment
+
+5. Answer the following questions:
+
+  a) Is the condition of the second if statement correct? if tempscale is >1 and tempscale is < 4 print unkown temperature scale out 
+cannot do calculation bye. 
+  b) How will you change it? swtich to tempscale < 1 and tempscale is >4. I also removed the or in the rankine else if statement.
+
+6. What is the value of the expression you just selected in the Watch window? 42
+
+7. Answer the following questions:
+
+  a) Does the program compute the correct temperature in Rankine degrees?  In Reamur degrees?not without making sure the formulas were
+correct
+  b) Does the program assign the correct value for the variable tempScaleStr? no it had rankine twice.
+  c) How can you modify the program to compute this equivalence properly? I made sure the formulas werew correct along with having the
+ correct tempScaleStr attached to eash else if stament with the corresponding formula.
+
+PS(I did all this before I put the statement of acadmeic honesty idk if that changes any thing like varibale values)

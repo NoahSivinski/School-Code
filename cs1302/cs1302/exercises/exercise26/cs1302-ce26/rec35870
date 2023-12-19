@@ -1,0 +1,73 @@
+cs1302-ce26:
+total 24
+-rw-r--r-- 1 ugrad 2657 Apr 24 22:17 pom.xml
+-rw-r--r-- 1 ugrad 6906 Apr 24 22:17 README.md
+-rw-r--r-- 1 ugrad    0 Apr 25 01:11 rec35870
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:17 src
+-rw-r--r-- 1 ugrad   84 Apr 25 01:10 SUBMISSION.md
+drwxr-xr-x 5 ugrad 4096 Apr 24 22:20 target
+
+cs1302-ce26/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:17 main
+
+cs1302-ce26/src/main:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:17 java
+
+cs1302-ce26/src/main/java:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:17 cs1302
+
+cs1302-ce26/src/main/java/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 25 01:08 ce26
+
+cs1302-ce26/src/main/java/cs1302/ce26:
+total 12
+-rw-r--r-- 1 ugrad 3269 Apr 25 01:08 TTTSolver.java
+-rw-r--r-- 1 ugrad 5321 Apr 24 22:38 TTTUtility.java
+
+cs1302-ce26/target:
+total 12
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:20 classes
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:20 generated-sources
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:20 maven-status
+
+cs1302-ce26/target/classes:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:20 cs1302
+
+cs1302-ce26/target/classes/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 25 01:08 ce26
+
+cs1302-ce26/target/classes/cs1302/ce26:
+total 8
+-rw-r--r-- 1 ugrad 2598 Apr 25 01:08 TTTSolver.class
+-rw-r--r-- 1 ugrad 1915 Apr 25 01:08 TTTUtility.class
+
+cs1302-ce26/target/generated-sources:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 24 22:20 annotations
+
+cs1302-ce26/target/generated-sources/annotations:
+total 0
+
+cs1302-ce26/target/maven-status:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:20 maven-compiler-plugin
+
+cs1302-ce26/target/maven-status/maven-compiler-plugin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Apr 24 22:20 compile
+
+cs1302-ce26/target/maven-status/maven-compiler-plugin/compile:
+total 4
+drwxr-xr-x 2 ugrad 4096 Apr 24 22:20 default-compile
+
+cs1302-ce26/target/maven-status/maven-compiler-plugin/compile/default-compile:
+total 8
+-rw-r--r-- 1 ugrad  57 Apr 25 01:08 createdFiles.lst
+-rw-r--r-- 1 ugrad 207 Apr 25 01:03 inputFiles.lst
+/home/ugrads/sivinski/cs1302/exercises/exercise26/cs1302-ce26:/home/work/cs1302a

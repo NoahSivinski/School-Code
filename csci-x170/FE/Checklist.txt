@@ -1,0 +1,8 @@
+1. Checklist - I worked very hard on this project, at least 2x the amount of time I worked on the homeworks. I have attached three
+files and my presentation, video, and report. I believe that this is all I need to state in my checklist but if not
+please email me and I will respond immediately with whatever else is needed.
+2. Report - Word count above 1200.
+3. Presentation - Presentation is attached.
+4. Video - Video demo is attached and is above the 3-minute minimum.
+5. Code base - Code base is attached. The main engine is the MatchingEngine.py that can be tested using Test.py. The
+OrderBookGUI creates a GUI for an Orderbook that uses the different algorithms. Please let me know if there is any confusion.

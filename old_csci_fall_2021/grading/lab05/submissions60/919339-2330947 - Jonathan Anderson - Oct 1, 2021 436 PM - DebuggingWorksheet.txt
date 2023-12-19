@@ -1,0 +1,40 @@
+CSCI 1301 - Lab 05
+Debugging Worksheet
+
+Student Name:	Jonathan Anderson
+
+1. What do you observe when you run the program? There's an error; the variable convertedDegrees may not have been initialized. 
+
+2. Where (what line numbers) have you set the breakpoints? Lines 34, 37, 51, 56, 64, & 68
+
+3. What is the value of the named constant MIN_FAHRENHEIT and the variable tempScaleStr displayed in the Variables window? 
+
+	MIN_FAHRENHEIT: -459.67
+	
+	tempScaleStr:""
+
+4. Answer the following questions:
+
+  a) Does the first if statement display the error message correctly? No
+  b) What is the problem? The comparison is using a greater than rather than a less than operator
+  c) How would you fix the program so it terminates when the user enters a Fahrenheit temperature less than the possible minimum temperature? Change the 
+	logical operator to a less than sign
+
+5. Answer the following questions:
+
+  a) Is the condition of the second if statement correct? No
+  b) How will you change it? I changed it so that the logical operators include the values 1 and 4, and added a logical negation so that if 
+	the tempScale int is not in between [1, 4] inclusive it will evaluate to false.
+
+6. What is the value of the expression you just selected in the Watch window?
+	a) For an input of 56, I got 24.
+	b) For an input of 56, I got 42.
+
+7. Answer the following questions:
+
+  a) Does the program compute the correct temperature in Rankine degrees?  In Reamur degrees? Neither was correct.
+  b) Does the program assign the correct value for the variable tempScaleStr? Not at first.
+  c) How can you modify the program to compute this equivalence properly? Remove the || logical operator and 
+	tempScale == 3 from the if statement(tempScale == 2 || tempScale == 3). Then make sure that the tempScale == 2 condition sets	
+	tempScaleStr to Reankine and that the tempScale == 3 if statement sets tempScaleStr to Reamur. Finally, change the formulas to the correct
+	formulas, which can be found online.
